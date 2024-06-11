@@ -28,7 +28,7 @@ const Sidebar = () => {
                 }`}
               >
                 <i className="fa-solid fa-hand-holding-medical"></i>
-                <Link to="/donar">Donar</Link>
+                <Link to="/donar">Donor</Link>
               </div>
               <div
                 className={`menu-item ${
@@ -48,7 +48,7 @@ const Sidebar = () => {
                 }`}
               >
                 <i className="fa-solid fa-warehouse"></i>
-                <Link to="/donar-list">Donar List</Link>
+                <Link to="/donar-list">Donor List</Link>
               </div>
               <div
                 className={`menu-item ${
@@ -75,7 +75,8 @@ const Sidebar = () => {
               }`}
             >
               <i className="fa-sharp fa-solid fa-building-ngo"></i>
-              <Link to="/orgnaisation">Orgnaisation</Link>
+              {/* <Link to="/orgnaisation">Orgnaisation</Link> */}
+              <Link to="/orgnaisation">Organisation</Link>
             </div>
           )}
           {user?.role === "hospital" && (
