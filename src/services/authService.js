@@ -5,7 +5,7 @@
 //   e.preventDefault();
 //   try {
 //     if (!role || !email || !password) {
-//       return alert("Please Privde All Feilds");
+//       return alert("Please Provide All Fields");
 //     }
 //     store.dispatch(userLogin({ email, password, role }));
 //   } catch (error) {
@@ -79,9 +79,9 @@ export const handleRegister = (
 ) => {
   e.preventDefault();
   try {
-    if (!name || !role || !email || !password || !phone) {
-      return toast.error("Please Provide All Required Fields");
-    }
+    // if (!name || !role || !email || !password || !phone) {
+    //   return toast.error("Please Provide All Required Fields");
+    // }
     store.dispatch(
       userRegister({
         name,
