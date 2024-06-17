@@ -51,6 +51,7 @@ import { toast } from "react-toastify";
 
 // Initialize react-toastify
 // toast.configure();
+//minor commit change
 
 export const handleLogin = (e, email, password, role) => {
   e.preventDefault();
